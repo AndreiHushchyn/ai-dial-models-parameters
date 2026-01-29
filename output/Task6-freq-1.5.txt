@@ -1,0 +1,20 @@
+Task: Task6-freq-1.5
+Model: gpt-4o
+Question: Explain the water cycle in simple terms for children
+Parameters: {'frequency_penalty': 1.5}
+
+AI:
+
+================================================== RESPONSE ==================================================
+The water cycle is how water moves around the Earth. It has four main steps:
+
+1. **Evaporation**: The sun heats up water in rivers, lakes, and oceans, turning it into vapor (like steam) that rises into the air.
+
+2. **Condensation**: As the vapor cools down high in the sky, it turns back into tiny drops of water and forms clouds.
+
+3. **Precipitation**: When lots of drops come together and get heavy, they fall from the clouds as rain or snow.
+
+4. **Collection**: The rain or snow flows back to rivers, lakes, or oceans—and then starts all over again!
+
+It's a never-ending circle!
+============================================================================================================

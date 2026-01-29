@@ -1,0 +1,15 @@
+Task: Task7-pres-2.0
+Model: gpt-4o
+Question: What is an entropy in LLM's responses?
+Parameters: {'presence_penalty': 2.0}
+
+AI:
+
+================================================== RESPONSE ==================================================
+In the context of Large Language Models (LLMs), **entropy** measures the uncertainty or randomness in their responses. It quantifies how evenly the model's probability distribution is spread over possible next tokens during text generation.
+
+- **Low entropy:** The model focuses on a few high-probability tokens, leading to repetitive and predictable responses.
+- **High entropy:** The model considers many token options with similar probabilities, resulting in varied and less structured outputs.
+
+Entropy control can be adjusted using settings like **temperature**, which influences the randomness of the output by modifying the token sampling process. Lower temperature reduces entropy for deterministic answers, while higher temperature increases it for creative or diverse responses.
+============================================================================================================

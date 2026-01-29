@@ -1,0 +1,67 @@
+Task: Task5-max_tokens
+Model: gpt-4o
+Question: What is token when we are working with LLM?
+Parameters: {'max_tokens': 10}
+
+AI:
+
+================================================== REQUEST ==================================================
+🔗 Endpoint: https://ai-proxy.lab.epam.com/openai/deployments/gpt-4o/chat/completions
+
+📋 Headers:
+  api-key: dial-h8i...cprv
+  Content-Type: application/json
+
+📝 Request Body:
+  Messages:
+    [1] SYSTEM: You are an assistant who answers concisely and informatively.
+    [2] USER: What is token when we are working with LLM?
+
+  Parameters:
+    max_tokens: 10
+===========================================================================================================
+
+================================================== RESPONSE ==================================================
+{
+  "choices": [
+    {
+      "content_filter_results": {},
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "In the context of large language models (LLMs",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1769713996,
+  "id": "chatcmpl-D3Rk4o7FyYt0aEfQ5dQCFaGEyY9Bz",
+  "model": "gpt-4o-2024-11-20",
+  "object": "chat.completion",
+  "prompt_filter_results": [
+    {
+      "content_filter_results": {},
+      "prompt_index": 0
+    }
+  ],
+  "system_fingerprint": "fp_b54fe76834",
+  "usage": {
+    "completion_tokens": 10,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 35,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 45
+  }
+}
+============================================================================================================

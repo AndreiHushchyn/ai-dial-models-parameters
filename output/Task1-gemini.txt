@@ -1,0 +1,15 @@
+Task: Task1-gemini
+Model: gemini-2.5-pro
+Question: What LLMs can do?
+
+AI:
+
+================================================== RESPONSE ==================================================
+Large Language Models (LLMs) are AI systems designed to understand, generate, and manipulate human language. Their capabilities are broad and can be grouped into several key areas:
+
+*   **Content Generation:** Create original text, from emails and essays to marketing copy, poems, and even computer code.
+*   **Information Synthesis:** Summarize long articles, reports, or meetings into key points. They can also extract specific information and answer questions based on a provided text.
+*   **Translation:** Translate text between dozens of languages with a high degree of accuracy and nuance.
+*   **Reasoning and Problem-Solving:** Explain complex topics in simple terms, brainstorm ideas, help debug code, and solve logic-based problems.
+*   **Conversational Interaction:** Power chatbots and virtual assistants, conduct sentiment analysis (e.g., determine if a review is positive or negative), and rewrite text to change its tone (e.g., from formal to casual).
+============================================================================================================

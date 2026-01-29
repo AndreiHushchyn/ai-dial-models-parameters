@@ -1,0 +1,12 @@
+Task: Task7-pres-1.5
+Model: gpt-4o
+Question: What is an entropy in LLM's responses?
+Parameters: {'presence_penalty': 1.5}
+
+AI:
+
+================================================== RESPONSE ==================================================
+In the context of large language models (LLMs), entropy refers to a measure of uncertainty or randomness in the model's responses. It quantifies how much variation exists in the output probabilities for the next token prediction. Higher entropy indicates more uncertainty and a broader range of possible outputs, while lower entropy reflects greater confidence in specific predictions.
+
+Adjusting the entropy, often through parameters like *temperature*, can influence how creative or deterministic the model's responses are—lower temperatures reduce entropy for more focused answers, while higher temperatures increase entropy, enabling more diverse and exploratory responses.
+============================================================================================================
